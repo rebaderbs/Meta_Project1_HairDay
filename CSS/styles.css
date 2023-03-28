@@ -21,74 +21,66 @@ header  > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 15rem;
 }
 
-nav ul{
+nav {
+    background-color:  #D0604C;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul  {
     list-style: none;
     text-align: center;
-    background-color:  #D0604C;
-    border-radius: 0.7rem;
+    font-size: 2rem;
+    padding-inline-start: 0rem;
 }
 
-nav li  {
+nav ul li  {
     display: inline-block;
-    margin: .2rem;
-    padding: 1.3rem;
+    margin: 0.25rem;
 }
 
-li a {
-    color: #F2E0D2;
-    padding: 1.3rem;
-    margin: 0 1.3rem;
-    text-align: center;
-    text-decoration: none;
-}
-
-a:hover {
+nav ul a:hover {
     color: darkslategrey;
 }
 
 section {
     display: flex;
-    margin: 1.3rem;
-    justify-content: center;
-    text-align: center;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 article {
     flex: 1;
     background-color:  #D0604C;
-    border-radius: 0.7rem;
-    margin: .5rem;
-    padding: 1.3rem;
+    border-radius: 1rem;
 }
 
-footer  {
-    display: flex;
-    color: #D0604C;
-}
-
-footer div  {
-    flex: 1;
-}
-
-div > img    {
-    max-width: 50%;
-    max-height:fit-content;
+main article    {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .promotion  {
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: bottom;
-    background-position-x: center;
+    background-position: 75%;
     text-align: left;
 }
 
 .article-images {
-    max-width: 320px;
     border-radius: 25rem;
-    
+}
 
+footer  {
+    display: flex;
+    margin: 1rem;
+    color: #D0604C;
+    gap: 2rem 1rem;
+}
+
+footer img  {
+    max-width: 50%;
 }
